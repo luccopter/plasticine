@@ -138,3 +138,9 @@ Git 提交规范是一种约定，用于确保代码库中的每次提交都具�
 |revert| 版本回退|
 |build|这表示对构建工具或构建过程进行了修改，比如升级webpack、替换gulp为webpack等|
 |ci|这表示与持续集成（Continuous Integration）服务相关的修改|
+## Git Push
+配置git push 默认推送流配置
+```
+1. git push --set-upstream origin feature/happy-new-year
+2. git push 
+```
